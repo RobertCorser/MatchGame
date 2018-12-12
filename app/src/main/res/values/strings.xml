@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+
+    <string name="btn_start_game">Start Game</string>
+    <string name="btn_settings">Settings</string>
+    <string name="btn_score_list">Score List</string>
+    <string name="btn_reset_score_list">Reset High Score</string>
+    <string name="btn_back">Back</string>
+    <string name="btn_save">Save</string>
+
+    <string name="settings_difficulty">Difficulty</string>
+
+    <string name="color_tag">0</string>
+    <string name="count_tag">1</string>
+    <string name="selected_tag">2</string>
+
+    <string name="tv_score">Score: 000000</string>
+
+    <string name="victory_text_congrats">Congratulations!</string>
+    <string name="you_scored">You scored</string>
+    <string name="score_placeholder">000000</string>
+    <string name="is_high_score">That is a new high score!</string>
+
+    <string-array name="array_difficulties">
+        <item>Easy (2x2)</item>
+        <item>Medium (4x4)</item>
+        <item>Hard (6x6)</item>
+    </string-array>
+
+</resources>

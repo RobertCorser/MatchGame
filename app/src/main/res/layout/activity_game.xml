@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/tv_game_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_score"
+        android:textSize="30sp"/>
+
+    <GridLayout
+        android:layout_below="@+id/tv_game_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="6"
+        android:layout_centerHorizontal="true"
+        >
+
+        <!-- Row 1 -->
+
+        <ImageView
+            android:id="@+id/iv_square_00"
+            android:layout_width="@dimen/square_size"
+            android:layout_height="@dimen/square_size"
+            android:src="@drawable/ic_gray_square"
+            android:onClick="onSquareClick"
+            />
+
+        <ImageView
+            android:id="@+id/iv_square_01"
+            android:layout_width="@dimen/square_size"
+            android:layout_height="@dimen/square_size"
+            android:src="@drawable/ic_gray_square"
+            android:onClick="onSquareClick"
+            />
+
+        <ImageView
+            android:id="@+id/iv_square_02"
+            android:layout_width="@dimen/square_size"
+            android:layout_height="@dimen/square_size"
+            android:src="@drawable/ic_gray_square"
+            android:onClick="onSquareClick"
+            />
+
+        <ImageView
+            android:id="@+id/iv_square_03"
+            android:layout_width="@dimen/square_size"
+            android:layout_height="@dimen/square_size"
+            android:src="@drawable/ic_gray_square"
+            android:onClick="onSquareClick"
+            />
+
+        <ImageView
+            android:id="@+id/iv_square_04"
+            android:layout_width="@dimen/square_size"
+            android:layout_height="@dimen/square_size"
+            android:src="@drawable/ic_gray_square"
+            android:onClick="onSquareClick"
+            />
+
+        <ImageView
+            android:id="@+id/iv_square_05"
+            android:layout_width="@dimen/square_size"
+            android:layout_height="@dimen/square_size"
+            android:src="@drawable/ic_gray_square"
+            android:onClick="onSquareClick"
+            />
+
+        <!-- Row 2 -->
+
+        <ImageView
+            android:id="@+id/iv_square_10"
+            android:layout_width="@dimen/square_size"
+            android:layout_height="@dimen/square_size"
+            android:src="@drawable/ic_gray_square"
+            android:onClick="onSquareClick"
+            />
+
+        <ImageView
+            android:id="@+id/iv_square_11"
+            android:layout_width="@dimen/square_size"
+            android:layout_height="@dimen/square_size"
+            android:src="@drawable/ic_gray_square"
+            android:onClick="onSquareClick"
+            />
+
+        <ImageView
+            android:id="@+id/iv_square_12"
+            android:layout_width="@dimen/square_size"
+            android:layout_height="@dimen/square_size"
+            android:src="@drawable/ic_gray_square"
+            android:onClick="onSquareClick"
+            />
+
+        <ImageView
+            android:id="@+id/iv_square_13"
+            android:layout_width="@dimen/square_size"
+            android:layout_height="@dimen/square_size"
+            android:src="@drawable/ic_gray_square"
+            android:onClick="onSquareClick"
+            />
+
+        <ImageView
+            android:id="@+id/iv_square_14"
+            android:layout_width="@dimen/square_size"
+            android:layout_height="@dimen/square_size"
+            android:src="@drawable/ic_gray_square"
+            android:onClick="onSquareClick"
+            />
+
+        <ImageView
+            android:id="@+id/iv_square_15"
+            android:layout_width="@dimen/square_size"
+            android:layout_height="@dimen/square_size"
+            android:src="@drawable/ic_gray_square"
+            android:onClick="onSquareClick"
+            />
+
+        <!-- Row 3 -->
+
+        <ImageView
+            android:id="@+id/iv_square_20"
+            android:layout_width="@dimen/square_size"
+            android:layout_height="@dimen/square_size"
+            android:src="@drawable/ic_gray_square"
+            android:onClick="onSquareClick"
+            />
+
+        <ImageView
+            android:id="@+id/iv_square_21"
+            android:layout_width="@dimen/square_size"
+            android:layout_height="@dimen/square_size"
+            android:src="@drawable/ic_gray_square"
+            android:onClick="onSquareClick"
+            />
+
+        <ImageView
+            android:id="@+id/iv_square_22"
+            android:layout_width="@dimen/square_size"
+            android:layout_height="@dimen/square_size"
+            android:src="@drawable/ic_gray_square"
+            android:onClick="onSquareClick"
+            />
+
+        <ImageView
+            android:id="@+id/iv_square_23"
+            android:layout_width="@dimen/square_size"
+            android:layout_height="@dimen/square_size"
+            android:src="@drawable/ic_gray_square"
+            android:onClick="onSquareClick"
+            />
+
+        <ImageView
+            android:id="@+id/iv_square_24"
+            android:layout_width="@dimen/square_size"
+            android:layout_height="@dimen/square_size"
+            android:src="@drawable/ic_gray_square"
+            android:onClick="onSquareClick"
+            />
+
+        <ImageView
+            android:id="@+id/iv_square_25"
+            android:layout_width="@dimen/square_size"
+            android:layout_height="@dimen/square_size"
+            android:src="@drawable/ic_gray_square"
+            android:onClick="onSquareClick"
+            />
+
+        <!-- Row 4 -->
+
+        <ImageView
+            android:id="@+id/iv_square_30"
+            android:layout_width="@dimen/square_size"
+            android:layout_height="@dimen/square_size"
+            android:src="@drawable/ic_gray_square"
+            android:onClick="onSquareClick"
+            />
+
+        <ImageView
+            android:id="@+id/iv_square_31"
+            android:layout_width="@dimen/square_size"
+            android:layout_height="@dimen/square_size"
+            android:src="@drawable/ic_gray_square"
+            android:onClick="onSquareClick"
+            />
+
+        <ImageView
+            android:id="@+id/iv_square_32"
+            android:layout_width="@dimen/square_size"
+            android:layout_height="@dimen/square_size"
+            android:src="@drawable/ic_gray_square"
+            android:onClick="onSquareClick"
+            />
+
+        <ImageView
+            android:id="@+id/iv_square_33"
+            android:layout_width="@dimen/square_size"
+            android:layout_height="@dimen/square_size"
+            android:src="@drawable/ic_gray_square"
+            android:onClick="onSquareClick"
+            />
+
+        <ImageView
+            android:id="@+id/iv_square_34"
+            android:layout_width="@dimen/square_size"
+            android:layout_height="@dimen/square_size"
+            android:src="@drawable/ic_gray_square"
+            android:onClick="onSquareClick"
+            />
+
+        <ImageView
+            android:id="@+id/iv_square_35"
+            android:layout_width="@dimen/square_size"
+            android:layout_height="@dimen/square_size"
+            android:src="@drawable/ic_gray_square"
+            android:onClick="onSquareClick"
+            />
+
+        <!-- Row 5 -->
+
+        <ImageView
+            android:id="@+id/iv_square_40"
+            android:layout_width="@dimen/square_size"
+            android:layout_height="@dimen/square_size"
+            android:src="@drawable/ic_gray_square"
+            android:onClick="onSquareClick"
+            />
+
+        <ImageView
+            android:id="@+id/iv_square_41"
+            android:layout_width="@dimen/square_size"
+            android:layout_height="@dimen/square_size"
+            android:src="@drawable/ic_gray_square"
+            android:onClick="onSquareClick"
+            />
+
+        <ImageView
+            android:id="@+id/iv_square_42"
+            android:layout_width="@dimen/square_size"
+            android:layout_height="@dimen/square_size"
+            android:src="@drawable/ic_gray_square"
+            android:onClick="onSquareClick"
+            />
+
+        <ImageView
+            android:id="@+id/iv_square_43"
+            android:layout_width="@dimen/square_size"
+            android:layout_height="@dimen/square_size"
+            android:src="@drawable/ic_gray_square"
+            android:onClick="onSquareClick"
+            />
+
+        <ImageView
+            android:id="@+id/iv_square_44"
+            android:layout_width="@dimen/square_size"
+            android:layout_height="@dimen/square_size"
+            android:src="@drawable/ic_gray_square"
+            android:onClick="onSquareClick"
+            />
+
+        <ImageView
+            android:id="@+id/iv_square_45"
+            android:layout_width="@dimen/square_size"
+            android:layout_height="@dimen/square_size"
+            android:src="@drawable/ic_gray_square"
+            android:onClick="onSquareClick"
+            />
+
+        <!-- Row 6 -->
+
+        <ImageView
+            android:id="@+id/iv_square_50"
+            android:layout_width="@dimen/square_size"
+            android:layout_height="@dimen/square_size"
+            android:src="@drawable/ic_gray_square"
+            android:onClick="onSquareClick"
+            />
+
+        <ImageView
+            android:id="@+id/iv_square_51"
+            android:layout_width="@dimen/square_size"
+            android:layout_height="@dimen/square_size"
+            android:src="@drawable/ic_gray_square"
+            android:onClick="onSquareClick"
+            />
+
+        <ImageView
+            android:id="@+id/iv_square_52"
+            android:layout_width="@dimen/square_size"
+            android:layout_height="@dimen/square_size"
+            android:src="@drawable/ic_gray_square"
+            android:onClick="onSquareClick"
+            />
+
+        <ImageView
+            android:id="@+id/iv_square_53"
+            android:layout_width="@dimen/square_size"
+            android:layout_height="@dimen/square_size"
+            android:src="@drawable/ic_gray_square"
+            android:onClick="onSquareClick"
+            />
+
+        <ImageView
+            android:id="@+id/iv_square_54"
+            android:layout_width="@dimen/square_size"
+            android:layout_height="@dimen/square_size"
+            android:src="@drawable/ic_gray_square"
+            android:onClick="onSquareClick"
+            />
+
+        <ImageView
+            android:id="@+id/iv_square_55"
+            android:layout_width="@dimen/square_size"
+            android:layout_height="@dimen/square_size"
+            android:src="@drawable/ic_gray_square"
+            android:onClick="onSquareClick"
+            />
+
+    </GridLayout>
+
+</RelativeLayout>
+
